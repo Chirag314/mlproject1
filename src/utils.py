@@ -10,10 +10,6 @@ from sklearn.model_selection import GridSearchCV
 
 from src.exception import CustomException
 
-import warnings
-
-warnings.filterwarnings("ignore", category=FutureWarning)
-
 
 def save_object(file_path, obj):
     try:
